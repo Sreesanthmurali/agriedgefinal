@@ -1,0 +1,72 @@
+export const pestsDB = [
+  { 
+    id: 'rhinocerous_beetle', nameEN: 'Rhinoceros Beetle', nameML: 'കൊമ്പൻ ചെല്ലി',
+    keywords: ['hole', 'cut', 'v-shape', 'crown', 'beetle', 'spots', 'dry leaf', 'falling leaves', 'കൊമ്പൻ', 'ചെല്ലി', 'ഓല', 'വെട്ട്'],
+    symptomsEN: 'Adults bore into unopened fronds causing V-shaped cuts on emerging leaves. Destroys palm heart.',
+    symptomsML: 'വിരിയാത്ത ഇളം ഓലകളിൽ തുരന്നുകയറുന്നു. ഓലകളിൽ V ആകൃതിയിലുള്ള വെട്ടുകൾ കാണാം.',
+    organicEN: 'Apply 1:2 mixture of neem cake and river sand in inner leaf axils. Use PVC pheromone traps.',
+    organicML: 'വേപ്പിൻ പിണ്ണാക്കും മണലും 1:2 അനുപാതത്തിൽ മണ്ടയിൽ ഇടുക. റൈനോലൂർ കെണികൾ വയ്ക്കുക.',
+    chemicalEN: 'Apply Carbaryl 50 WP mixed with sand in leaf axils during severe infestations (avoid rainy days).',
+    chemicalML: 'സെവിഡോൾ ഗുളികകൾ അല്ലെങ്കിൽ കാർബാറിൽ മണലുമായി കലർത്തി മണ്ടയിൽ ഇടുക.',
+    preventiveEN: 'Destroy decaying organic matter, compost pits, and dead palm trunks where larvae breed.',
+    preventiveML: 'ചാണകക്കുഴികളിലും അഴുകിയ തടികളിലുമാണ് ഇവ പെരുകുന്നത്, അവ നശിപ്പിക്കുക.'
+  },
+  { 
+    id: 'red_palm_weevil', nameEN: 'Red Palm Weevil', nameML: 'ചുവന്ന ചെല്ലി',
+    keywords: ['hole', 'oozing', 'liquid', 'sound', 'chewing', 'red', 'brown', 'rotting', 'ദ്രാവകം', 'ശബ്ദം', 'ചുവന്ന', 'ചെല്ലി'],
+    symptomsEN: 'Grubs bore deep inside trunk. Small holes oozing foul, brownish-red liquid and chewing sound heard.',
+    symptomsML: 'പുഴുക്കൾ തടിയുടെ ഉള്ളിൽ കാർന്നുതിന്നുന്നു. ദ്വാരങ്ങളിൽ നിന്ന് ചുവപ്പ് ദ്രാവകം ഒലിച്ചിറങ്ങും.',
+    organicEN: 'Deploy bucket pheromone traps. Inject pure neem oil deep into oozing holes and plug with wet clay.',
+    organicML: 'ഫിറമോൺ കെണികൾ ഉപയോഗിക്കുക. ദ്വാരങ്ങളിലേക്ക് വേപ്പെണ്ണ പമ്പ് ചെയ്ത് കളിമണ്ണ് വെച്ച് അടയ്ക്കുക.',
+    chemicalEN: 'Inject approved systemic insecticides (Indoxacarb) directly into trunk holes and seal with mud.',
+    chemicalML: 'ഇൻഡോക്സാകാർബ് പോലെയുള്ള കീടനാശിനികൾ ദ്വാരങ്ങളിലൂടെ ഒഴിച്ച് അടയ്ക്കുക.',
+    preventiveEN: 'Ensure absolutely no mechanical injuries to soft trunk as exposed wounds invite egg-laying.',
+    preventiveML: 'വെട്ടുകത്തി കൊണ്ട് തെങ്ങിൻതടിയിലോ ഓലമടലുകളിലോ മുറിവുകൾ ഉണ്ടാക്കാതിരിക്കാൻ ശ്രദ്ധിക്കുക.'
+  },
+  { 
+    id: 'rice_stem_borer', nameEN: 'Rice Stem Borer', nameML: 'തണ്ടുതുരപ്പൻ പുഴു',
+    keywords: ['dead heart', 'white ear', 'dry', 'borer', 'stem', 'dry leaf', 'wilting', 'തണ്ട്', 'വെൺകതിർ', 'പുഴു'],
+    symptomsEN: 'Caterpillars bore into rice stem causing "dead heart" (drying of central shoot) and "white ear".',
+    symptomsML: 'നെല്ലിന്റെ തണ്ട് തുരന്ന് കയറുന്നു. കൂമ്പില ഉണങ്ങുകയും നെൽമണികൾ പതിരാകുകയും ചെയ്യുന്നു.',
+    organicEN: 'Release Trichogramma egg parasitoids. Spray potent Neem Seed Kernel Extract (NSKE 5%).',
+    organicML: 'ട്രൈക്കോഗ്രമ്മ മിത്രകീടങ്ങളെ തുറന്നുവിടുക. 5% വീര്യമുള്ള വേപ്പിൻകുരു സത്ത് തളിക്കുക.',
+    chemicalEN: 'Apply Cartap Hydrochloride 4G granules or spray Chlorantraniliprole according to advisories.',
+    chemicalML: 'കാർട്ടാപ്പ് ഹൈഡ്രോക്ലോറൈഡ് ഗുളികകൾ പാടത്ത് വിതറുകയോ മരുന്നടിക്കുകയോ ചെയ്യുക.',
+    preventiveEN: 'Manually clip off extreme tips of rice seedlings before transplanting to remove unseen eggs.',
+    preventiveML: 'ഞാറുകൾ പാടത്തേക്ക് നടുന്നതിന് മുൻപ് ഇലകളുടെ അറ്റം നുള്ളി മാറ്റുക.'
+  },
+  { 
+    id: 'quick_wilt', nameEN: 'Quick Wilt (Phytophthora)', nameML: 'ദ്രുതവാട്ടം',
+    keywords: ['yellow', 'wilting', 'drop', 'rot', 'fall', 'falling leaves', 'dry leaf', 'rotting', 'curling', 'വാട്ടം', 'മഞ്ഞ', 'കൊഴിയുക'],
+    symptomsEN: 'Deadly fungal disease in pepper. Leaves rapidly turn pale yellow and drop off, vine wilts and dies.',
+    symptomsML: 'കുരുമുളക് വള്ളികൾ പെട്ടെന്ന് മഞ്ഞളിച്ച് ഉണങ്ങിപ്പോകുന്നു. ഇലകളും തിരികളും കൊഴിഞ്ഞുവീഴുന്നു.',
+    organicEN: 'Drench soil base extensively with Trichoderma viride enriched manure. Spray 1% Bordeaux mixture.',
+    organicML: 'ട്രൈക്കോഡെർമ ചേർത്ത ജൈവവളം നൽകുക. ചുവട്ടിലെ മണ്ണിൽ 1% ബോർഡോ മിശ്രിതം ഒഴിക്കുക.',
+    chemicalEN: 'Apply Potassium Phosphonate (0.3%) or Metalaxyl-Mancozeb as a soil drench before monsoons.',
+    chemicalML: 'കാലവർഷത്തിന് മുൻപായി മെറ്റലാക്സിൽ-മാങ്കോസെബ് പോലെയുള്ള കുമിൾനാശിനികൾ ഒഴിക്കുക.',
+    preventiveEN: 'Provide rigorous and excellent soil drainage, vines are susceptible to root rot in stagnant water.',
+    preventiveML: 'മണ്ണിൽ ഈർപ്പം കെട്ടിനിന്നാൽ പെട്ടെന്ന് രോഗം വരും. വെള്ളം കെട്ടിനിൽക്കുന്നില്ല എന്ന് ഉറപ്പാക്കുക.'
+  },
+  { 
+    id: 'fruit_fly', nameEN: 'Fruit Fly', nameML: 'കായീച്ച',
+    keywords: ['rot', 'maggot', 'fall', 'fruit', 'yellow', 'spots', 'holes', 'rotting', 'കായീച്ച', 'പുഴു', 'അഴുകുക'],
+    symptomsEN: 'Maggots feed inside ripening fruits. Fruits rot internally, turn yellow prematurely, and fall.',
+    symptomsML: 'കായ്കളുടെ കാമ്പ് തിന്നുനശിപ്പിക്കുന്നു. കായ്കൾ പഴുക്കുന്നതിന് മുൻപ് തന്നെ അഴുകി താഴെ വീഴുന്നു.',
+    organicEN: 'Wrap developing tender fruits tightly with paper bags. Use Cue-lure/Methyl eugenol pheromone traps.',
+    organicML: 'ഇളം കായ്കൾ കടലാസ് കവറുകൾ ഉപയോഗിച്ച് പൊതിയുക. കായീച്ചയെ ആകർഷിക്കുന്ന കെണികൾ തൂക്കുക.',
+    chemicalEN: 'Spot spraying of Malathion mixed with jaggery (as bait) on lower branches (last resort).',
+    chemicalML: 'ശർക്കര ലായനിയിൽ മാലത്തിയോൺ കലർത്തി ഇലകളിൽ തളിക്കുന്നത് ഈച്ചകളെ കൊല്ലാൻ സഹായിക്കും.',
+    preventiveEN: 'Gather all prematurely fallen, infested fruits and bury them deeply or destroy them by burning.',
+    preventiveML: 'കായീച്ച കുത്തി കേടായി താഴെ വീഴുന്ന കായ്കൾ പെറുക്കിക്കൂട്ടി മണ്ണിൽ ആഴത്തിൽ കുഴിച്ചിടുക.'
+  },
+  { id: 'rice_bug', nameEN: 'Rice Bug', nameML: 'ചാഴി', keywords: ['smell', 'empty', 'chaff', 'spots', 'ചാഴി', 'പതിർ', 'മണം'], symptomsEN: 'Sucks sap from developing rice grains during milky stage, causing empty chaffy grains with spots.', symptomsML: 'നെൽമണികളിൽ പാൽ നിറയുന്ന സമയത്ത് നീരൂറ്റിക്കുടിക്കുന്നു. നെൽമണികൾ പതിരാകുന്നു.', organicEN: 'Set up fish/frog rotting traps to lure bugs. Spray garlic-chili extract in the evening.', organicML: 'അഴുകിയ മീൻ വെച്ച് കെണിയൊരുക്കുക. വൈകുന്നേരങ്ങളിൽ വെളുത്തുള്ളി-കാന്താരി മിശ്രിതം തളിക്കുക.', chemicalEN: 'Dust Quinalphos 1.5 D or spray Malathion 50 EC.', chemicalML: 'മാലത്തിയോൺ സ്പ്രേ ചെയ്യുക.', preventiveEN: 'Keep field bunds completely free of weeds and wild grasses.', preventiveML: 'പാടവരമ്പുകളിലെ കാടുകൾ വെട്ടിമാറ്റി പരിസരം വൃത്തിയാക്കുക.' },
+  { id: 'brown_plant_hopper', nameEN: 'Brown Plant Hopper', nameML: 'മുഞ്ഞ', keywords: ['burn', 'dry', 'circular', 'brown', 'wilting', 'മുഞ്ഞ', 'കരിയുക'], symptomsEN: 'Hopper burn: Circular patches of rice plants suddenly dry completely and turn brown.', symptomsML: 'വട്ടത്തിൽ നെല്ല് കരിഞ്ഞുണങ്ങി തീപിടിച്ചതുപോലെ നശിച്ചു വീഴുന്നു (ഹോപ്പർ ബേൺ).', organicEN: 'Drain field water completely for 3-4 days. Spray Beauveria bassiana bio-pesticide.', organicML: 'പാടത്തെ വെള്ളം പൂർണ്ണമായും വാർത്തു കളയുക. ബ്യൂവേറിയ ബാസിയാന തളിക്കുക.', chemicalEN: 'Spray Imidacloprid or Dinotefuran.', chemicalML: 'ഇമിഡാക്ലോപ്രിഡ് തളിക്കുക.', preventiveEN: 'Leave 30cm skip rows every 2.5 meters during planting for air circulation.', preventiveML: 'വായുസഞ്ചാരത്തിനായി ഇടവഴികൾ (Alleyways) ഇട്ടിരിക്കണം.' },
+  { id: 'banana_weevil', nameEN: 'Banana Pseudostem Weevil', nameML: 'പിണ്ടിതുരപ്പൻ പുഴു', keywords: ['jelly', 'oozing', 'hole', 'stem', 'പിണ്ടി', 'ജെല്ലി', 'തുള'], symptomsEN: 'Grubs bore into pseudostem. Distinctive jelly-like viscous sap oozes from holes on the trunk.', symptomsML: 'വാഴപ്പോളകളിലെ ദ്വാരങ്ങളിലൂടെ ജെല്ലി പോലെയുള്ള ദ്രാവകം പുറത്തേക്ക് ഒലിച്ചിറങ്ങുന്നു.', organicEN: 'Use fresh cut pseudostem pieces as traps. Apply strong neem cake to the soil base.', organicML: 'പുതിയ വാഴപ്പിണ്ടിയുടെ കഷണങ്ങൾ മുറിച്ച് തോട്ടത്തിൽ കെണികളായി വെക്കുക.', chemicalEN: 'Inject Chlorpyrifos solution into the stem.', chemicalML: 'ക്ലോർപൈറിഫോസ് ലായനി കുത്തിവെക്കുക.', preventiveEN: 'Remove and destroy completely all discarded, rotting pseudostems from the field.', preventiveML: 'വിളവെടുപ്പിന് ശേഷം ബാക്കി വരുന്ന വാഴപ്പിണ്ടികൾ തോട്ടത്തിൽ അഴുകാൻ അനുവദിക്കരുത്.' },
+  { id: 'tea_mosquito_bug', nameEN: 'Tea Mosquito Bug', nameML: 'തേയില കൊതുക്', keywords: ['black', 'spots', 'dry', 'burn', 'തേയില', 'കൊതുക്', 'കറുത്ത'], symptomsEN: 'Injects toxic saliva causing black necrotic lesions. Flushed shoots and flower panicles dry up.', symptomsML: 'കൊതുക് കുത്തിയ ഭാഗം കരിഞ്ഞ് കറുത്ത പുള്ളികളാകുന്നു. തളിരിലകളും പൂങ്കുലകളും കരിഞ്ഞുണങ്ങും.', organicEN: 'Spray 5% organic Neem oil emulsion or bird’s eye chili-garlic extract on new flushes.', organicML: '5% വീര്യമുള്ള വേപ്പെണ്ണയോ വെളുത്തുള്ളി-കാന്താരി മിശ്രിതമോ തളിക്കുക.', chemicalEN: 'Apply Lambda-cyhalothrin before flowering.', chemicalML: 'ലാംഡാ സൈഹാലോത്രിൻ സ്പ്രേ ചെയ്യുക.', preventiveEN: 'Clear all alternative host weeds around the plantation.', preventiveML: 'തോട്ടത്തിന് ചുറ്റുമുള്ള കാടുകൾ വെട്ടിത്തെളിച്ച് സൂക്ഷിക്കുക.' },
+  { id: 'pollu_beetle', nameEN: 'Pepper Pollu Beetle', nameML: 'പൊള്ളുവണ്ട്', keywords: ['hollow', 'empty', 'black', 'hole', 'പൊള്ളു', 'വണ്ട്', 'പൊള്ളയായ'], symptomsEN: 'Grubs eat inner seed core of pepper corns, leaving completely hollow, useless outer shells (pollu).', symptomsML: 'കുരുമുളക് മണികളുടെ കാമ്പ് തിന്നുനശിപ്പിക്കുന്നു. മണികൾ പൊള്ളയായ തൊണ്ടായി മാറുന്നു.', organicEN: 'Spray 0.5% neem oil emulsion uniformly over emerging spikes in July and October.', organicML: 'ജൂലായ്, ഒക്ടോബർ മാസങ്ങളിൽ 0.5% വീര്യമുള്ള വേപ്പെണ്ണ തളിക്കുക.', chemicalEN: 'Quinalphos spraying during berry formation.', chemicalML: 'ക്വിനാൽഫോസ് തളിക്കുക.', preventiveEN: 'Regulate shade canopy before monsoon. Gather and burn all fallen empty berries.', preventiveML: 'തണൽ ക്രമീകരിക്കുക. കൊഴിഞ്ഞുവീഴുന്ന കേടായ മണികൾ ശേഖരിച്ച് തീയിട്ട് നശിപ്പിക്കുക.' },
+  { id: 'root_wilt', nameEN: 'Root Wilt', nameML: 'കാറ്റുവീഴ്ച', keywords: ['bending', 'yellow', 'leaves', 'wilting', 'കാറ്റുവീഴ്ച', 'വളയുക'], symptomsEN: 'Flaccidity (bending) of leaflets, yellowing, and drying of outer whorl of leaves in coconut.', symptomsML: 'ഓലക്കാലുകൾ ഉള്ളിലേക്ക് വളയുകയും പുറത്തെ ഓലകൾ മഞ്ഞളിച്ചുണങ്ങുകയും ചെയ്യുന്നു.', organicEN: 'Apply heavy organic manure and 50g Magnesium sulphate. No complete cure exists.', organicML: 'ധാരാളം ജൈവവളവും 50 ഗ്രാം മഗ്നീഷ്യം സൾഫേറ്റും നൽകുക. പൂർണ്ണ ചികിത്സയില്ല.', chemicalEN: 'None effective. Focus on nutrient management.', chemicalML: 'മരുന്നുകളില്ല. വളപ്രയോഗം കൃത്യമാക്കുക.', preventiveEN: 'Remove severely affected palms. Avoid water stagnation.', preventiveML: 'രോഗം കൂടിയ തെങ്ങുകൾ വെട്ടിമാറ്റുക. വെള്ളം കെട്ടിനിൽക്കാൻ അനുവദിക്കരുത്.' },
+  { id: 'mahali', nameEN: 'Mahali / Koleroga', nameML: 'മഹാളി', keywords: ['falling', 'rot', 'brown', 'monsoon', 'മഹാളി', 'കൊഴിയുക', 'അഴുകുക'], symptomsEN: 'Severe fruit rot of arecanut during heavy monsoons. Nuts rot and fall prematurely.', symptomsML: 'തുടർച്ചയായ മഴക്കാലത്ത് അടയ്ക്കകൾ കൊഴിഞ്ഞുവീഴുന്നു. കായ്കളിൽ തവിട്ട് പാടുകൾ വരും.', organicEN: 'Prophylactic spraying of 1% Bordeaux mixture on developing bunches just before rains.', organicML: 'മഴക്കാലം തുടങ്ങുന്നതിന് തൊട്ടുമുൻപായി എല്ലാ കുലകളിലും 1% ബോർഡോ മിശ്രിതം തളിക്കുക.', chemicalEN: 'Metalaxyl MZ spraying if disease spreads.', chemicalML: 'രോഗം വന്നാൽ മെറ്റലാക്സിൽ തളിക്കുക.', preventiveEN: 'Destroy all fallen infected nuts by burning them.', preventiveML: 'കൊഴിഞ്ഞുവീഴുന്ന അടയ്ക്കകൾ കൂട്ടിയിട്ട് കത്തിക്കുക.' },
+  { id: 'mealybug', nameEN: 'Mealybug', nameML: 'പഞ്ഞിക്കീടം', keywords: ['white', 'cotton', 'ants', 'sooty', 'പഞ്ഞി', 'ഉറുമ്പ്', 'വെളുത്ത'], symptomsEN: 'White cottony masses on stems/leaves. Secretes honeydew attracting ants and black sooty mold.', symptomsML: 'വെളുത്ത പഞ്ഞി പോലെയുള്ള കീടങ്ങൾ പറ്റിയിരിക്കുന്നു. ഇലകളിൽ കറുത്ത പൂപ്പൽ ഉണ്ടാകുന്നു.', organicEN: 'Wash plants with strong jet of water. Apply neem oil or fish oil rosin soap.', organicML: 'ശക്തമായി വെള്ളം പമ്പ് ചെയ്ത് കഴുകിക്കളയാം. വേപ്പെണ്ണ തളിക്കുക.', chemicalEN: 'Dimethoate spraying.', chemicalML: 'ഡൈമെത്തോയേറ്റ് സ്പ്രേ ചെയ്യുക.', preventiveEN: 'Control ants using sticky traps at the base to prevent them from protecting mealybugs.', preventiveML: 'ഇവയെ സംരക്ഷിക്കുന്ന ഉറുമ്പുകളെ തടയാൻ ചുവട്ടിൽ പശ തേക്കുക.' },
+  { id: 'mosaic_virus', nameEN: 'Mosaic Disease', nameML: 'മഞ്ഞളിപ്പ് രോഗം', keywords: ['yellow', 'vein', 'mosaic', 'curling', 'മഞ്ഞളിപ്പ്', 'ഞരമ്പ്'], symptomsEN: 'Yellow and green mottled patterns on leaves. Fruiting reduced. Transmitted by whiteflies.', symptomsML: 'ഇലകളിലെ ഞരമ്പുകൾ മഞ്ഞ നിറമാകുന്നു. കായ്കൾ ഇല്ലാതാകുന്നു. വൈറസ് രോഗം.', organicEN: 'No cure. Spray neem oil extensively to kill whitefly vectors carrying the virus.', organicML: 'ചികിത്സയില്ല. വെള്ളീച്ചകളെ തടയാൻ വേപ്പെണ്ണ എമൽഷൻ ശക്തമായി സ്പ്രേ ചെയ്യുക.', chemicalEN: 'Imidacloprid to control whiteflies.', chemicalML: 'ഇമിഡാക്ലോപ്രിഡ് ഉപയോഗിക്കാം.', preventiveEN: 'Instantly ruthlessly uproot and completely destroy infected plants to halt spread.', preventiveML: 'രോഗലക്ഷണം കണ്ടാലുടൻ ആ ചെടി വേരോടെ പിഴുതെടുത്ത് തീയിട്ട് നശിപ്പിക്കുക.' },
+  { id: 'bacterial_wilt', nameEN: 'Bacterial Wilt', nameML: 'ബാക്ടീരിയൽ വാട്ടം', keywords: ['wilting', 'green', 'sudden', 'ooze', 'വാട്ടം', 'പെട്ടെന്ന്'], symptomsEN: 'Sudden wilting of totally green plants in bright sun. Cut stem oozes milky bacterial slime in water.', symptomsML: 'പച്ചപ്പുള്ള ചെടികൾ പെട്ടെന്ന് വാടിത്തളർന്ന് ഉണങ്ങുന്നു. തണ്ട് മുറിച്ചാൽ വെളുത്ത ദ്രാവകം വരും.', organicEN: 'No cure. Immediately remove and burn affected plants completely.', organicML: 'ചികിത്സയില്ല. രോഗം വന്ന ചെടികൾ വേരോടെ പിഴുതെടുത്ത് കത്തിച്ചു നശിപ്പിക്കണം.', chemicalEN: 'Apply bleaching powder to infected soil.', chemicalML: 'മണ്ണിൽ ബ്ലീച്ചിംഗ് പൗഡർ വിതറി അണുവിമുക്തമാക്കുക.', preventiveEN: 'Practice strict crop rotation with non-host crops like paddy or maize.', preventiveML: 'വാട്ടം വന്ന സ്ഥലത്ത് നെല്ല്, ചോളം പോലെയുള്ള വിളകൾ മാറി മാറി കൃഷി ചെയ്യുക (Crop Rotation).' }
+];
